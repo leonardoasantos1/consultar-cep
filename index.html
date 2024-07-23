@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consultar CEP</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <form id="consultar-form">
+        <h1>Consultar CEP</h1>
+        <div class="container-inputs">
+        <div class="container-input">
+            <label for="cep-ipt">Digite o CEP:</label>
+            <input
+            type="text"
+            id="cep-ipt"
+            required
+            minlength="8"
+            maxlength="8"
+            placeholder="Ex: 01001000"
+            />
+        </div>
+        <div class="container-input">
+            <label for="logradouro-ipt">Digite a rua:</label>
+            <input type="text" id="logradouro-ipt" required placeholder="Ex: Praça da Sé"/>
+        </div>
+        </div>
+        <div class="container-inputs">
+        <div class="container-input">
+            <label for="bairro-ipt">Digite o bairro:</label>
+            <input type="text" id="bairro-ipt" required placeholder="Ex: Sé" />
+        </div>
+        <div class="container-input">
+            <label for="cidade-ipt">Digite a cidade:</label>
+            <input
+            type="text"
+            id="cidade-ipt"
+            required
+            placeholder="Ex: São Paulo"
+            />
+        </div>
+        </div>
+    </form>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
