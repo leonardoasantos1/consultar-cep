@@ -16,8 +16,8 @@ Este projeto é uma aplicação web simples para consultar informações de ende
 - JavaScript (ES6+)
 - API ViaCEP
 
-##Início da página:
+## Início da página:
 ![image](https://github.com/user-attachments/assets/795d3e04-1e80-499e-ae83-688865022ee7)
 
-##Após o usuario digitar o CEP:
+## Após o usuario digitar o CEP:
 ![image](https://github.com/user-attachments/assets/5472ad58-1cf3-41bd-b03d-baf829ebfc2d)
